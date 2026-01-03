@@ -1,0 +1,26 @@
+{
+  "name": "cyberdefence-otp-server",
+  "version": "1.0.0",
+  "description": "Production SMTP server for otp.cyberdefence.org.in",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "smtp",
+    "email",
+    "otp",
+    "hostinger"
+  ],
+  "author": "Cyber Defence",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.8",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "rate-limiter-flexible": "^5.0.3"
+  }
+}
